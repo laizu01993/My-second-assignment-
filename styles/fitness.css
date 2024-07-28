@@ -10,3 +10,177 @@
   font-variation-settings:
     "slnt" 0;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+    align-items: center;
+    }
+    .bg-color{
+        background-color: #111111;
+    }
+
+/* header styles */
+
+/* navbar related styles */
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+.btn-home{
+    color: #FFFFFF;
+    background-color: #E65336;
+    border-radius: 30px;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0px;
+    
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    color: #E65336;
+}
+/* banner styles */
+.banner-tittle{
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFFFFF;
+    
+}
+
+
+.join-button{
+    background-color:#E65336;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+.download-button{
+    border: 1px solid #FFFFFF;
+    padding: 10px 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color:#111111
+}
+.banner{
+    display: flex;
+    background-color:rgba(119, 119, 119, 0);
+    gap: 100px;
+}
+.banner-profile-pic{
+    width:580px
+    
+}
+.banner-content{
+    margin-top: 80px;
+}
+.button{
+    background-color:#777777;
+    color:#FFFFFF ;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 15px;
+    width:150px;
+    height: 50px;
+    
+    
+    
+
+}
+.button-large{
+    font-size: 1.3rem;
+    background-color:#777777;
+    color:#FFFFFF ;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+    
+    
+}
+.red-dot{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.button-container{
+    position: absolute;
+}
+/* habits section styles */
+.our-habits{
+    margin-top: 100px;
+}
+.section-title{
+    color: #FFFFFF;
+    text-align: center;
+}
+.section-description{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+.card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    text-align: center;
+}
+.card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+.card-title{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.card-description{
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+
