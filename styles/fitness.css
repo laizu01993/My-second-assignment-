@@ -147,11 +147,11 @@ nav{
 .our-habits{
     margin-top: 100px;
 }
-.section-title{
+.habits-title{
     color: #FFFFFF;
     text-align: center;
 }
-.section-description{
+.habits-description{
     color:#FFFFFF;
     font-weight: 400;
     font-size: 1rem;
@@ -183,4 +183,100 @@ nav{
     font-weight: 400;
 }
 
+.run-section{
+    max-width: 1060px;
+    margin-top: 50px;
+}
+.section-title{
+    color: #FFFFFF;
+}
+.section-description{
+    color: #FFFFFF;
+}
+.run-image{
+    width:30%;
+    padding: 20px;
+    
+}
+.run-content{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 50px;
+     border-radius: 20px;
+     border: 1px solid black;
+     background-color: #222222;
+     align-items: center;
+    
+    
+}
+.run-image img{
+    width: 100%;
+    border-radius: 10px;
+}
 
+
+/* BMI section styles */
+.BMI-section{
+    color: #FFFFFF;
+    
+    margin-top: 50px;
+    text-align: center;
+}
+.BMI-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-right: 50px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+.BMI-table{
+    color: #FFFFFF;
+}
+.calculation-section{
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: #222222;
+}
+th{
+    font-size: 1rem;
+    font-weight: 600;
+}
+td{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.form-title{
+    color: #FFFFFF;
+}
+.form-description{
+    color: #FFFFFF;
+}
+.calculation-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+input, option{
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 10px;
+    
+    
+}
+#sex{
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+#activity{
+    padding: 10px;
+    width: 62%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
